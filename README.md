@@ -34,20 +34,20 @@ For now, please find all of the files I've developed so far at my Google Drive l
 
 They are split into 5 panel types:
 
-<u>Panel 1 - Button Plates</u> (3mm)  
+**Panel 1 - Button Plates** (3mm)  
 This is the layer of acrylic your 24mm buttons will snap into. It's important that this layer is 3mm to hold the buttons properly.  
 
-<u>Panel 2 - Underplates</u> (6mm)  
+**Panel 2 - Underplates** (6mm)  
 This is what goes directly underneath your button plate, helping to keep your buttons and their panel supported and making your build as sturdy as possible.  
 
-<u>Panel 3 - USBC</u> (3mm)  
+**Panel 3 - USBC** (3mm)  
 This layer is what sandwiches your USBC breakout board into place. It relies on you doing some hand wiring to use cheap and commmonly available breakout boards from [AliExpress](https://www.aliexpress.com/item/1005001300974530.html), or ordering specially designed breakouts that simplify the wiring greatly [as found in Hadoe's GitHub](https://github.com/HTangl/HTUB)  
 There are versions of this layer adapted for each type of breakout board and are labelled accordingly, or you can opt to do a permanently connected cable instead.  
 
-<u>Panel 4 - Wiring Routing</u> (???mm)  
+**Panel 4 - Wiring Routing** (???mm)  
 As I said above, this layer is where it's most important for you to know what you need. Here is where you make more room for buttons and connectors that are taller, or can save on bulk if you're using something shorter like a Bao Button found in my [GitHub](https://github.com/Ryanemzed/Bao-Button-Mods) on the mod.  
 
-<u>Panel 5 - Bottom Cover</u> (3mm)  
+**Panel 5 - Bottom Cover** (3mm)  
 Thankfully, there's nothing special here to worry about: its only job is to close things up :)  
 
 

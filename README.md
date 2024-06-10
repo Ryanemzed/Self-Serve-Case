@@ -22,11 +22,11 @@ The way to make sense of this is to think of it as a top to bottom set of slices
 
 As an example, let's imagine you're building with stock Sanwas, want a USBC combo port, and are planning to use quick disconnect terminals. Let's look at the layers we'll need:
 
-1 x 3mm Button Panel  
-2 x 3mm Under Panel (or 1 x 6mm)  
-1 x 3mm USBC Panel  
-7 x 3mm Wiring Panel (or 3 x 6mm + 1 x 3mm)  
-1 x 3mm Bottom Panel  
+- [ ] 1 x 3mm Button Panel  
+- [ ] 2 x 3mm Under Panel (or 1 x 6mm)  
+- [ ] 1 x 3mm USBC Panel  
+- [ ] 7 x 3mm Wiring Panel (or 3 x 6mm + 1 x 3mm)  
+- [ ] 1 x 3mm Bottom Panel  
 
 This provides us the amount of space we need to just fit in stock Sanwas and their connectors with a bit of elbow grease, with a total case depth top to bottom of 36mm. This leaves an internal working space with the wiring layers of 21mm, which should be plenty of room for activities with a wire range of microcontrollers and with soldering or even screw terminals.  
 

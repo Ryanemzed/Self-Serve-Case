@@ -30,7 +30,7 @@ In general, you're going to adjust your layer selection based on the buttons you
 Lastly, there are multiple remixes of each layer, which are meant to address variables such as the types of bolts & nuts or the usbc breakout board intended to be used. To start, all of the designs presuppose you will be using sets of M6 bolts [such as these](https://www.amazon.com/uxcell-Binding-Leather-Fastener-M6x20mm/dp/B07QB68F9K/), which can be found on amazon all around the world as well as places like [AliExpress](https://www.aliexpress.com/item/1005001560902304.html) in a variety of lengths to match the final case design you settle on.
 
 # The Files
-For now, please find all of the files I've developed so far at my Google Drive link here: https://drive.google.com/drive/folders/1H953CQpRPNNaVaf_rjKbYQHJYwPd4CnC?usp=sharing
+For now, please find all of the files I've developed under [case-files](case-files)
 
 They are split into 5 panel types:
 

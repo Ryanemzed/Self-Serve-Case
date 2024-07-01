@@ -1,27 +1,32 @@
-# Buttons Matter
+# Ryanemzed's Self Serve Case Guide
+
+## Buttons Matter
+
 I started my journey building rectangles by trying to make a controller for my brother that didn't suck, and a big part of that was realizing that what the folks in the US were doing with keyboard switches was just not at all accessible to me in Canada before services like SendCutSend opened up affordable shipping recently.
 
 I've spent the past two years tinkering with buttons of various types trying to figure out ways to make the most of what I had access to, and in all of my work I feel like arcade buttons still have a place in the current scene. Of course, a big factor behind that is that the OBSF-24 buttons from Sanwa remain a popular option in the FGC at large, but more specifically because they don't require the specific design consideration of having a switchplate for the keyboard switches.
 
 Enter the files in this GitHub.
 
-# A Flexible Set of Files
+## A Flexible Set of Files
+
 The design language is heavily lifted from the builds I do by commission, the Chocwa Bar & Chocwa Bar Mini, using curved channels to guide the wiring from the button clusters to the microcontroller and maintaining as much material infill as possible to preserve rigidity when using materials such as acrylic.  
 
 You're going to need to do some investigating to figure out how to make these files work for you, but you can come to Crane's discord to ask me questions about how to plan a build that will work for your needs. Things like tolerances, your comfort level with soldering, and even the materials you're hoping to use can throw some curve balls that take some work to figure out.  
 
 For now, know that my primary objective is to provide a platform for people to build something that is sleek while reducing the case footprint as much as possible using more widely accessible processes and materials.
 
-# How To Use These Files
+## How To Use These Files
+
 The way to make sense of this is to think of it as a top to bottom set of slices. You will always need a Button Panel that's 3mm thick, then you'll want 6mm worth of Under Panel (either one 6mm layer or two 3mm), and then your port/cable layer also 3mm. Where the most variability will come from is in the Wiring layers underneath, as that's where all of your wiring spaghetti lives. And then of course, you'll need a bottom panel.
 
 As an example, let's imagine you're building with stock Sanwas, want a USBC combo port, and are planning to use quick disconnect terminals. Let's look at the layers we'll need:
 
-1 x 3mm Button Panel  
-2 x 3mm Under Panel (or 1 x 6mm)  
-1 x 3mm USBC Panel  
-7 x 3mm Wiring Panel (or 3 x 6mm + 1 x 3mm)  
-1 x 3mm Bottom Panel  
+- [ ] 1 x 3mm Button Panel  
+- [ ] 2 x 3mm Under Panel (or 1 x 6mm)  
+- [ ] 1 x 3mm USBC Panel  
+- [ ] 7 x 3mm Wiring Panel (or 3 x 6mm + 1 x 3mm)  
+- [ ] 1 x 3mm Bottom Panel  
 
 This provides us the amount of space we need to just fit in stock Sanwas and their connectors with a bit of elbow grease, with a total case depth top to bottom of 36mm. This leaves an internal working space with the wiring layers of 21mm, which should be plenty of room for activities with a wire range of microcontrollers and with soldering or even screw terminals.  
 
@@ -29,8 +34,11 @@ In general, you're going to adjust your layer selection based on the buttons you
 
 Lastly, there are multiple remixes of each layer, which are meant to address variables such as the types of bolts & nuts or the usbc breakout board intended to be used. To start, all of the designs presuppose you will be using sets of M6 bolts [such as these](https://www.amazon.com/uxcell-Binding-Leather-Fastener-M6x20mm/dp/B07QB68F9K/), which can be found on amazon all around the world as well as places like [AliExpress](https://www.aliexpress.com/item/1005001560902304.html) in a variety of lengths to match the final case design you settle on.
 
-# The Files
-For now, please find all of the files I've developed so far at my Google Drive link here: https://drive.google.com/drive/folders/1H953CQpRPNNaVaf_rjKbYQHJYwPd4CnC?usp=sharing
+If choosing to use a USB-C Breakout Board, see [this guide for wiring suggestions.](UsbcBreakoutWiringGuide.md)
+
+## The Files
+
+For now, please find all of the files I've developed under [case-files](case-files)
 
 They are split into 5 panel types:
 
@@ -50,8 +58,8 @@ As I said above, this layer is where it's most important for you to know what yo
 **Panel 5 - Bottom Cover** (3mm)  
 Thankfully, there's nothing special here to worry about: its only job is to close things up :)  
 
-
 Some handy tips to keep in mind:  
+
 - 3mm clear acrylic is always cheapest
 - Ordering more than one of a layer makes the layers cheaper
 - 6mm clear acrylic is a nice option to make things easier to handle while building
@@ -60,7 +68,8 @@ Some handy tips to keep in mind:
 
 As a tip, I like to do a clear acrylic button panel and then a cool type of material underneath like stained wood which protects it from wear and tear. Another idea is a clear acrylic top layer, and then printing out a piece of art you like to go under that panel and spare you from having to see all of your wiring spaghetti under it ;)
 
-# Example Builds
+## Example Builds
+
 So far, I've had two people use the files here to make their own controllers, and I'm super thankful to both of them for trusting my work to make themselves something they can use to enjoy the beautiful game of Melee.
 
 V_Rin's build:
@@ -73,5 +82,6 @@ Zedy's build:
 ![20220520_211841](https://user-images.githubusercontent.com/96904158/172110808-9f27545b-ee6e-4aff-8e41-41ca70cdf214.jpg)
 His build reused components from his DIY build he had done using a Hammond steel case and stock sanwas, and with a little cruelty he was able to make things work. The issue here was that we needed to add one more layer of material to the wiring channels to account for tolerances in the acrylic, so he didn't have quite enough room for his button terminals and had to solder his ground loop on rather than using the existing QDC terminals. That said, he was able to accomplish a build totaling 33mm case depth, reducing the physical bulk and heft he was unhappy with coming from the Hammond case significantly.
 
-# Questions
-If you'd like to ask any questions, please feel free to @ me in Crane's discord (https://discord.gg/S3qgZWD), where I am active and spend a lot of time discussing builds and work to help others accomplish their own builds in between joking around :)
+## Questions
+
+If you'd like to ask any questions, please feel free to @ me in [Crane's discord](https://discord.gg/S3qgZWD), where I am active and spend a lot of time discussing builds and work to help others accomplish their own builds in between joking around :)
